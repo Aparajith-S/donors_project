@@ -4,4 +4,4 @@ python:
   - "3.7"
 # command to install dependencies
 install:
-  - sudo apt-get install python3-sklearn python3-sklearn-lib
+  - sudo apt-get install -r requirements.txt
