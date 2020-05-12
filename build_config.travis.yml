@@ -1,0 +1,7 @@
+language: python
+rvm:
+ - 3.7
+ - jruby
+install:
+  - pip install -q sklearn==0.22.1
+  - python setup.py -q install
