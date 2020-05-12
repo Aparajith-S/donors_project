@@ -1,7 +1,8 @@
 language: python
-rvm:
- - 3.7
- - jruby
+python:
+  - "3.6"      # current default Python on Travis CI
+  - "3.7"
+# command to install dependencies
 install:
   - pip install -q sklearn==0.22.1
   - python setup.py -q install
