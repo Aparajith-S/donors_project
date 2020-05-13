@@ -33,8 +33,8 @@ import visuals as vs
 # Import 'GridSearchCV', 'make_scorer', and any other necessary libraries
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import make_scorer
-# Pretty display for notebooks
-get_ipython().run_line_magic('matplotlib', 'inline')
+# Pretty display for notebooks uncomment if using in ipynb 
+# get_ipython().run_line_magic('matplotlib', 'inline')
 #Import two metrics from sklearn - fbeta_score and accuracy_score
 from sklearn.metrics import accuracy_score,fbeta_score
 # Import functionality for cloning a model
