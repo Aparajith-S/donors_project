@@ -682,8 +682,8 @@ def train_test():
         # Run metrics visualization for the three supervised learning models chosen
         vs.evaluate(results, accuracy, fscore)
         for i in results:
-        print("Training_time : "+i+' : '+str(results[i][2]['train_time']))
-        print("Pred_time : "+i+' : '+str(results[i][2]['pred_time']))
+            print("Training_time : "+i+' : '+str(results[i][2]['train_time']))
+            print("Pred_time : "+i+' : '+str(results[i][2]['pred_time']))
     except ImportError:
         print('this feature wont work with your current version of sklearn')
     return accuracy_score(y_test, reduced_predictions), fbeta_score(y_test, reduced_predictions, beta = 0.5)
