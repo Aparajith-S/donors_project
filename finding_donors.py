@@ -488,8 +488,8 @@ def train_test():
     clf = GradientBoostingClassifier(random_state=42)
     
     # Create the parameters list you wish to tune, using a dictionary if needed.
-    parameters = {'max_depth':[3,4,5,6],
-                  'n_estimators' : [100,150]
+    parameters = {'max_depth': [5], #[3,4,5,6],
+                  'n_estimators' : [100]#,150]
                   }
     # Make an fbeta_score scoring object using make_scorer()
     scorer =  make_scorer(fbeta_score, beta=0.5)
