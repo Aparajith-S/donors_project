@@ -5,5 +5,5 @@ def ftest():
 	xaccuracy,xfscore = train_test()
 	if xaccuracy is not None:
 		return 1
-	else
+	else:
 		return 0
