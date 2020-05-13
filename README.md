@@ -2,6 +2,10 @@
 # Supervised Learning
 ## Project: Finding Donors for CharityML
 
+### Build Status
+
+[![Build Status](https://travis-ci.com/Aparajith-S/donors_project.svg?branch=master)](https://travis-ci.com/Aparajith-S/donors_project)
+
 ### Install
 
 This project requires **Python 3.7** and the following Python libraries installed:
