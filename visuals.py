@@ -4,9 +4,9 @@
 import warnings
 warnings.filterwarnings("ignore", category = UserWarning, module = "matplotlib")
 #
-# Display inline matplotlib plots with IPython
-from IPython import get_ipython
-get_ipython().run_line_magic('matplotlib', 'inline')
+# Display inline matplotlib plots with IPython : uncomment when using jupyter
+# from IPython import get_ipython
+# get_ipython().run_line_magic('matplotlib', 'inline')
 ###########################################
 
 import matplotlib.pyplot as pl
